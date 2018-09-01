@@ -13,6 +13,7 @@ For updates, please check the ([releases section](https://github.com/ferreira-sa
 INSTRUCTIONS
 
 1. Preliminary steps
+    
     i. Export ERP data as ASCII file in EEGLAB
     - [EEGLAB export options]
     - Make sure to note down of the sampling rate in Hz.
