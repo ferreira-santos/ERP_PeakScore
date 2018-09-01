@@ -26,7 +26,6 @@ For updates, please check the ([releases section](https://github.com/ferreira-sa
   - After opening the file you should see the file path, electrodes, and time points.
 - Define the settings and measures for the peak scoring
   - For information on each of the settings and measures, see the help tooltips by mousing over them in the program window (note: make sure "Help tooltips" is enabled the "Help" menu).
-
 - Score peaks and save
   - The program will produce an output file with the selected peak measures for all electrodes.
   - The output will be an ASCII comma-separated value (CSV) file which may be conveniently opened in a spreadsheet program.
