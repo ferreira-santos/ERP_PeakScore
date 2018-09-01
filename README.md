@@ -11,22 +11,22 @@ For updates, please check the ([releases section](https://github.com/ferreira-sa
 
 ## Instructions
 ### 1. Preliminary steps
-1.1. Export ERP data as ASCII file in EEGLAB
+- Export ERP data as ASCII file in EEGLAB
   - [EEGLAB export options]
   - Make sure to note down of the sampling rate in Hz.
-1.2. Verify the ASCII file (optional)
+- Verify the ASCII file (optional)
   - The first row of the ASCII file should contain electrode names.
   - The second row should contain numerical values corresponding to the voltages of the first EEG/ERP time point for each electrode.
   - The following rows should contain the remaining EEG/ERP data points.
-1.3. Ensure that each electrode corresponds to one column of the ASCII file 
+- Ensure that each electrode corresponds to one column of the ASCII file 
   - If there is any space or tabulation in the first row after the last electrode name, delete this space/tab and save the file.
 
 ### 2. Using ERP PeakScore
-1. Open the ASCII file exported from EEGLAB
+- Open the ASCII file exported from EEGLAB
   - After opening the file you should see the file path, electrodes, and time points.
-2. Define the settings and measures for the peak scoring
+- Define the settings and measures for the peak scoring
   - For information on each of the settings and measures, see the help tooltips by mousing over them in the program window (note: make sure "Help tooltips" is enabled the "Help" menu).
-3. Score peaks and save
+- Score peaks and save
   - The program will produce an output file with the selected peak measures for all electrodes.
   - The output will be an ASCII comma-separated value (CSV) file which may be conveniently opened in a spreadsheet program.
   - If there are errors, a message box will appear and you will have to go back and correct the errors before the output is produced.
