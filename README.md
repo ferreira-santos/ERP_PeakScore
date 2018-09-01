@@ -36,4 +36,4 @@ Notes:
 - If you want to score more than one ERP component for a given file, you must run the program twice. For example, run it once to score N1, then redefine the settings and run it again for P2.
 
 ## About
-The `ERP PeakScore` program was developed by Fernando Ferreira-Santos as an Open Source software ([CC0 3.0](https://github.com/ferreira-santos/ERP_PeakScore/blob/master/LICENSE)). **Citation information will be added here soon**. Any issues or bugs that arise while using the software may be reported [here](https://github.com/ferreira-santos/ERP_PeakScore/issues).
+The `ERP PeakScore` program was developed by [Fernando Ferreira-Santos](http://ferreira-santos.eu) as an Open Source software ([CC0 3.0](https://github.com/ferreira-santos/ERP_PeakScore/blob/master/LICENSE)). **Citation information will be added here soon**. Any issues or bugs that arise while using the software may be reported [here](https://github.com/ferreira-santos/ERP_PeakScore/issues).
