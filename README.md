@@ -1,13 +1,13 @@
 # ERP PeakScore
 
 ## Description
-`ERP PeakScore` is a small program designed to extract amplitude and latency measures from event-related potential data exported in ASCII format from ([EEGLAB](https://sccn.ucsd.edu/eeglab/)).
+`ERP PeakScore` is a small program designed to extract amplitude and latency measures from event-related potential data exported in ASCII format from [EEGLAB](https://sccn.ucsd.edu/eeglab/).
 
 The output of `ERP PeakScore` is a comma-separated value (CSV) file with the results of the peak scoring procedure. This CSV file is in ASCII format and can be edited with any text editor or, perhaps more conveniently, with a spreadsheet software.
 
 See use instructions below. Additionally, please refer to the help tooltips on the program window, and to the "Instructions.txt" and "Citation.txt" files (accessible from the program's help menu) for additional information.
 
-For updates, please check the ([releases section](https://github.com/ferreira-santos/ERP_PeakScore/releases)) of the GitHub repository (updates may also be announced in the software section of the website of the Laboratory of Neuropsychophysiology: http://www.fpce.up.pt/labpsi/).
+For updates, please check the [releases section](https://github.com/ferreira-santos/ERP_PeakScore/releases) of the GitHub repository (updates may also be announced in the software section of the website of the Laboratory of Neuropsychophysiology: http://www.fpce.up.pt/labpsi/).
 
 ## Instructions
 ### 1. Preliminary steps
