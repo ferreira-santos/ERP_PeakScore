@@ -44,4 +44,8 @@ For updates, please check the [releases section](https://github.com/ferreira-san
 - ERP PeakScore expects English OS locale configurations: dot/point `.` as decimal separator, comma `,` as separator in CSV files. Certain locale settings use the comma as a decimal separator and semi-colon as separator for CSV files -- note that ERP PeakScore will not work with these settings. If your computer is configured with a non-english locale, you must manually define these settings to the English standard.
 
 ## About
-The `ERP PeakScore` program was developed by [Fernando Ferreira-Santos](http://ferreira-santos.eu) as an Open Source software ([CC0 3.0](https://github.com/ferreira-santos/ERP_PeakScore/blob/master/LICENSE)). **Citation information will be added here soon**. Any issues or bugs that arise while using the software may be reported [here](https://github.com/ferreira-santos/ERP_PeakScore/issues).
+The `ERP PeakScore` program was developed by [Fernando Ferreira-Santos](http://ferreira-santos.eu) as an Open Source software licensed under the Creative Commons Attribution 3.0 Unported License([CC0 3.0](https://github.com/ferreira-santos/ERP_PeakScore/blob/master/LICENSE)). Any issues or bugs that arise while using the software may be reported [here](https://github.com/ferreira-santos/ERP_PeakScore/issues).
+
+APA style 6th edition citation:
+
+Ferreira-Santos, F. (2013). ERP PeakScore (Version 1.0) [Computer software]. Porto: Laboratory of Neuropsychophysiology (University of Porto). Retrieved from https://github.com/ferreira-santos/ERP_PeakScore
