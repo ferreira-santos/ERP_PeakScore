@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ERP PeakScore.exe" version="1.0.0.0" publicKeyToken="43f95729cd493fd5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ERP_PeakScore_icon_transp.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ERP PeakScore" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ERP PeakScore.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ERP PeakScore.exe" size="415232">
+      <assemblyIdentity name="ERP PeakScore" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kc0CgzCfoYsiVLMklWjroIFZfsc/Cr69qu3OzLyivMQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.Vs.dll" size="269344">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jdtxd2sS/GAR6K8OHfT7S3JBSwXU0RywsX+ucaNWQF4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Citation.txt" size="960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8C7sdmy6suqwWcxh05sMtYW09oWEqH/PD/S5SC17UGE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ERP PeakScore.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ERP_PeakScore_icon_transp.ico" size="136243">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wxHAINxKlfozVYbcAAhiZAcpTpGbkv52D2Q3oMf4J3I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ERP_test_file.txt" size="61047">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k33DUS7l4GlEPWF+rLTBR2/ZHKQJgL4xeK1jDRArxMM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Instructions.txt" size="2101">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bp/A2Q7yoqVmFGMUJHRCAW8vG2MzZdbjuwVoQLCdxyk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Readme.txt" size="2627">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uZRqtx6gMF5oZ+ZZ/yP3wrx8ZLNVMi07J52S2iLxCL4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=FFS\F. Ferreira-Santos" issuerKeyHash="5ac401242a52a84c63c3d7a1131928a78326863c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h3OQrJs4K4pgn2W82kiwXWK4Hnu+Dm2kcrY4OyN2+no=</DigestValue></Reference></SignedInfo><SignatureValue>dVZxnRrXmIC5j2L44huQbMxDgG/327D0lgX669/Odiy/5TpJQS/5w+ghFe2SOsXKyGLGHyZEV54vCWsLOH9m1/owG/v7dIzkg4oCiI0CXVnAWjkAK1x/iVGzAdOgz6NqRdhVJc6MvTDYFdQvxaZbMINywFNyXXZ2W83mEQIXQ58=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>muJaBJg2zDiKUshz+a1Ln6g2niIRCp0g3ad2Am7VS+qCwD427fxM30owWOX4Y2wWiG6l6wtZ2us7EEzcoX0HEGVBwhBdG6SqdfA6m35/C9UpkzpgV4MoDjK4xOHlrd3+swXdTLsPRF82lcNBAssmRzFwIGJyKOeMsfQOArQ6cps=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7afa76233b38b672a46d0ebe7b1eb8625db048dabc659f608a2b389bac907387" Description="" Url=""><as:assemblyIdentity name="ERP PeakScore.exe" version="1.0.0.0" publicKeyToken="43f95729cd493fd5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FFS\F. Ferreira-Santos</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4KcFdFPDzbWjNrVZW5NLzU9R7XROyX6JQuU0v4NVv1w=</DigestValue></Reference></SignedInfo><SignatureValue>EznEQ9PbRCzY3y4eXXgevUtnwDPOVrvI4Xy0TN+8unFmyXM8Okm1KTfpEWCzrUHhyxPqXW4Hq6qVTUhPE+f7anQaja2q95udQT1TOQ3f06GtFpyS0gN8kol6PRsnYO8xkcZdNzjUfhKlgW4IgpEwX90o6nDccTytCUvi7+/mas8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>muJaBJg2zDiKUshz+a1Ln6g2niIRCp0g3ad2Am7VS+qCwD427fxM30owWOX4Y2wWiG6l6wtZ2us7EEzcoX0HEGVBwhBdG6SqdfA6m35/C9UpkzpgV4MoDjK4xOHlrd3+swXdTLsPRF82lcNBAssmRzFwIGJyKOeMsfQOArQ6cps=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQHFekdxR2xJFHY5ZPja4DizANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARgBGAFMAXABGAC4AIABGAGUAcgByAGUAaQByAGEALQBTAGEAbgB0AG8AczAeFw0xMzA5MDMxNDA1MzJaFw0xNDA5MDMyMDA1MzJaMDcxNTAzBgNVBAMeLABGAEYAUwBcAEYALgAgAEYAZQByAHIAZQBpAHIAYQAtAFMAYQBuAHQAbwBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCa4loEmDbMOIpSyHP5rUufqDaeIhEKnSDdp3YCbtVL6oLAPjbt/EzfSjBY5fhjbBaIbqXrC1na6zsQTNyhfQcQZUHCEF0bpKp18Dqbfn8L1SmTOmBXgygOMrjE4eWt3f6zBd1Muw9EXzaVw0ECyyZHMXAgYnIo54yx9A4CtDpymwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAI850oU1cz4DMvJfgTTHQ3AUy1eSO5CTOI2dIK9Y9kbzTgGHrAsbyZkeyWI3ziBn/qw9EGVnBAQc418fBe7f3kJkqGBem/wMonRGZ9J2JUcoXRWNukMWaAbaOa7W9mYsD0rlVsjWffAsmU+UF0RYr2PzxTh7HehF53D8OuuBwzPB</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

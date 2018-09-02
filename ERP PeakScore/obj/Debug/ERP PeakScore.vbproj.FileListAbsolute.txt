@@ -1,0 +1,44 @@
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\bin\Debug\ERP PeakScore.exe.config
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\bin\Debug\ERP PeakScore.exe
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\bin\Debug\ERP PeakScore.pdb
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\bin\Debug\ERP PeakScore.xml
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\obj\Debug\ERP_PeakScore.Resources.resources
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\obj\Debug\ERP PeakScore.vbproj.GenerateResource.Cache
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\obj\Debug\ERP PeakScore.exe
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\obj\Debug\ERP PeakScore.xml
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\obj\Debug\ERP PeakScore.pdb
+C:\Users\F. Ferreira-Santos\AppData\Local\Temporary Projects\ERP PeakScore\obj\Debug\ERP_PeakScore.frmMain.resources
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.exe.config
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.exe
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.xml
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.pdb
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.exe
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.pdb
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.xml
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\obj\Debug\ERP_PeakScore.frmMain.resources
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\obj\Debug\ERP_PeakScore.Resources.resources
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.vbproj.GenerateResource.Cache
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.exe.manifest
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.application
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.exe.manifest
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.application
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\F. Ferreira-Santos\Documents\Visual Studio 2012\Projects\ERP PeakScore\ERP PeakScore\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.vbprojAssemblyReference.cache
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP_PeakScore.frmMain.resources
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP_PeakScore.Resources.resources
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.vbproj.GenerateResource.cache
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.vbproj.CoreCompileInputs.cache
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.exe
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.xml
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.pdb
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.exe.config
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.exe.manifest
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.application
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.exe
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.pdb
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\bin\Debug\ERP PeakScore.xml
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.exe.manifest
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.application
+C:\Users\F. Ferreira-Santos\Dropbox\Sync\GitHub\ERP_PeakScore\ERP PeakScore\obj\Debug\ERP PeakScore.vbproj.CopyComplete

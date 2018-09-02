@@ -1,0 +1,29 @@
+﻿****************************************************
+
+ERP PeakScore version 1.0 (2013)   
+
+Fernando Ferreira-Santos (frsantos@fpce.up.pt)
+
+Laboratory of Neuropsychophysiology
+http://www.fpce.up.pt/labpsi
+
+****************************************************
+
+HOW TO CITE ERP PeakScore?
+
+This work is licensed under the Creative Commons 
+Attribution 3.0 Unported License. To view a copy of 
+this license, visit https://creativecommons.org/licenses/by/3.0/ 
+or send a letter to Creative Commons, 171 Second Street, 
+Suite 300, San Francisco, California 94105, USA.
+
+You may use, distribute, and modify this software freely, 
+but are required to credit the original author. 
+
+APA style 6th edition citation:
+
+Ferreira-Santos, F. (2013). ERP PeakScore (Version 1.0) 
+[Computer software]. Porto: Laboratory of 
+Neuropsychophysiology (University of Porto). 
+Retrieved from 
+http://www.fpce.up.pt/labpsi/index.php?page=13&level=2&lang=en
