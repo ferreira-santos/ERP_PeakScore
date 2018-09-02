@@ -32,8 +32,9 @@ For updates, please check the [releases section](https://github.com/ferreira-san
   - If there are errors, a message box will appear and you will have to go back and correct the errors before the output is produced.
 
 Notes:
-- Each ERP average file must be scored individually, i.e., there is no batch function in the program.
+- Each ERP average file must be scored individually (i.e., there is no batch function in the program).
 - If you want to score more than one ERP component for a given file, you must run the program twice. For example, run it once to score N1, then redefine the settings and run it again for P2.
+- ERP PeakScore expects English OS locale configurations: dot/point `.` as decimal separator, comma `,` as separator in CSV files. Certain locale settings use the comma as a decimal separator and semi-colon as separator for CSV files -- note that ERP PeakScore will not work with these settings. If your computer is configured with a non-english locale, you must manually define these settings to the English standard.
 
 ## About
 The `ERP PeakScore` program was developed by [Fernando Ferreira-Santos](http://ferreira-santos.eu) as an Open Source software ([CC0 3.0](https://github.com/ferreira-santos/ERP_PeakScore/blob/master/LICENSE)). **Citation information will be added here soon**. Any issues or bugs that arise while using the software may be reported [here](https://github.com/ferreira-santos/ERP_PeakScore/issues).
