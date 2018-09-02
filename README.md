@@ -14,7 +14,7 @@ For updates, please check the [releases section](https://github.com/ferreira-san
 - Export ERP data as ASCII file in EEGLAB
   - Open the the data set for the condition/participant of interest in EEGLAB
   - Navigate the EEGLAB GUI menu >> File | Export | Data and ICA activity to text file
-  - Select the following options and export: ![EEGLAB export options]()
+  - Select the following options and export: ![EEGLAB export options](https://github.com/ferreira-santos/ERP_PeakScore/blob/master/docs/EEGLAB_export_options.png)
   - Make sure to note down of the sampling rate in Hz.
 - Verify the ASCII file (optional)
   - The first row of the ASCII file should contain electrode names.
