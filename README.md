@@ -1,9 +1,11 @@
-# <img src="https://github.com/ferreira-santos/ERP_PeakScore/blob/master/docs/ERP_PeakScore_logo.png" width=50%> ERP PeakScore
+# ![ERP PeakScore Logo](https://github.com/ferreira-santos/ERP_PeakScore/blob/master/docs/ERP_PeakScore_logo.png) ERP PeakScore
 
 ## Description
 `ERP PeakScore` is a small program designed to extract amplitude and latency measures from event-related potential data exported in ASCII format from [EEGLAB](https://sccn.ucsd.edu/eeglab/).
 
+<p align="center">
 <img src="https://github.com/ferreira-santos/ERP_PeakScore/blob/master/docs/ERP_PeakScore_screenshot.png" width=50%>
+</p>
 
 The output of `ERP PeakScore` is a comma-separated value (CSV) file with the results of the peak scoring procedure. This CSV file is in ASCII format and can be edited with any text editor or, perhaps more conveniently, with a spreadsheet software.
 
@@ -17,7 +19,7 @@ For updates, please check the [releases section](https://github.com/ferreira-san
   - Open the the data set for the condition/participant of interest in EEGLAB
   - Navigate the EEGLAB GUI menu >> File | Export | Data and ICA activity to text file
   - Select the following options and export: 
-    - <img src="https://github.com/ferreira-santos/ERP_PeakScore/blob/master/docs/EEGLAB_export_options.png" width=50%>
+    - <img src="https://github.com/ferreira-santos/ERP_PeakScore/blob/master/docs/EEGLAB_export_options.png" width=75%>
   - Make sure to note down of the sampling rate in Hz.
 - Verify the ASCII file (optional)
   - The first row of the ASCII file should contain electrode names.
