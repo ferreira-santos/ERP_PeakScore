@@ -1,7 +1,7 @@
 # ![ERP PeakScore Logo](https://github.com/ferreira-santos/ERP_PeakScore/blob/master/docs/ERP_PeakScore_logo.png) ERP PeakScore
 
 ## Description
-`ERP PeakScore` is a small program designed to extract amplitude and latency measures from event-related potential data exported in ASCII format from [EEGLAB](https://sccn.ucsd.edu/eeglab/).
+`ERP PeakScore` is a program for Windows designed to extract amplitude and latency measures from event-related potential data exported in ASCII format from [EEGLAB](https://sccn.ucsd.edu/eeglab/).
 
 <p align="center">
 <img src="https://github.com/ferreira-santos/ERP_PeakScore/blob/master/docs/ERP_PeakScore_screenshot.png" width=50%>
