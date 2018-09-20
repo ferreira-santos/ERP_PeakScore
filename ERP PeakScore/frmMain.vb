@@ -346,7 +346,8 @@
 
     Private Sub menuHelpDocumentation_Click(sender As Object, e As EventArgs) Handles menuHelpDocumentation.Click
         Try
-            System.Diagnostics.Process.Start(My.Application.Info.DirectoryPath + "\Readme.txt")
+            'System.Diagnostics.Process.Start(My.Application.Info.DirectoryPath + "\Readme.txt")
+            System.Diagnostics.Process.Start("https://github.com/ferreira-santos/ERP_PeakScore#-erp-peakscore")
         Catch ex As Exception
             MsgBox("Error: " + ex.Message.ToString)
         End Try
@@ -357,7 +358,7 @@
     End Sub
 
     Private Sub menuHelpUpdates_Click(sender As Object, e As EventArgs) Handles menuHelpUpdates.Click
-        System.Diagnostics.Process.Start("www.fpce.up.pt/labpsi/index.php?page=13&level=2&lang=en")
+        System.Diagnostics.Process.Start("https://github.com/ferreira-santos/ERP_PeakScore/releases")
     End Sub
 
 
@@ -377,7 +378,7 @@
 
     Private Sub menuHelpInstructions_Click(sender As Object, e As EventArgs) Handles menuHelpInstructions.Click
         Try
-            System.Diagnostics.Process.Start(My.Application.Info.DirectoryPath + "\Instructions.txt")
+            System.Diagnostics.Process.Start("https://github.com/ferreira-santos/ERP_PeakScore#instructions")
         Catch ex As Exception
             MsgBox("Error: " + ex.Message.ToString)
         End Try
@@ -385,7 +386,7 @@
 
     Private Sub menuHelpCitation_Click(sender As Object, e As EventArgs) Handles menuHelpCitation.Click
         Try
-            System.Diagnostics.Process.Start(My.Application.Info.DirectoryPath + "\Citation.txt")
+            System.Diagnostics.Process.Start("https://github.com/ferreira-santos/ERP_PeakScore#about")
         Catch ex As Exception
             MsgBox("Error: " + ex.Message.ToString)
         End Try

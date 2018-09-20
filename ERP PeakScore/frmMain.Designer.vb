@@ -71,11 +71,11 @@ Partial Class frmMain
         Me.menuHelpDocumentation = New System.Windows.Forms.ToolStripMenuItem()
         Me.menuHelpLicense = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.menuHelpInstructions = New System.Windows.Forms.ToolStripMenuItem()
         Me.menuHelpCitation = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
         Me.menuHelpUpdates = New System.Windows.Forms.ToolStripMenuItem()
         Me.picLicense = New System.Windows.Forms.PictureBox()
+        Me.menuHelpInstructions = New System.Windows.Forms.ToolStripMenuItem()
         Me.boxDefineSettings.SuspendLayout()
         Me.boxDefineMeasures.SuspendLayout()
         CType(Me.picLabNPF, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,9 +85,10 @@ Partial Class frmMain
         '
         'btnOpenFile
         '
-        Me.btnOpenFile.Location = New System.Drawing.Point(12, 44)
+        Me.btnOpenFile.Location = New System.Drawing.Point(11, 35)
+        Me.btnOpenFile.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnOpenFile.Name = "btnOpenFile"
-        Me.btnOpenFile.Size = New System.Drawing.Size(164, 34)
+        Me.btnOpenFile.Size = New System.Drawing.Size(146, 27)
         Me.btnOpenFile.TabIndex = 0
         Me.btnOpenFile.Text = "&Open ERP File"
         Me.btnOpenFile.UseVisualStyleBackColor = True
@@ -98,29 +99,31 @@ Partial Class frmMain
         '
         'textFile
         '
-        Me.textFile.Location = New System.Drawing.Point(182, 44)
+        Me.textFile.Location = New System.Drawing.Point(162, 35)
+        Me.textFile.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textFile.Multiline = True
         Me.textFile.Name = "textFile"
         Me.textFile.ReadOnly = True
         Me.textFile.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.textFile.Size = New System.Drawing.Size(522, 33)
+        Me.textFile.Size = New System.Drawing.Size(464, 27)
         Me.textFile.TabIndex = 1
         '
         'listElectrodes
         '
         Me.listElectrodes.FormattingEnabled = True
-        Me.listElectrodes.ItemHeight = 20
-        Me.listElectrodes.Location = New System.Drawing.Point(531, 117)
+        Me.listElectrodes.ItemHeight = 16
+        Me.listElectrodes.Location = New System.Drawing.Point(472, 94)
+        Me.listElectrodes.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.listElectrodes.Name = "listElectrodes"
-        Me.listElectrodes.Size = New System.Drawing.Size(172, 84)
+        Me.listElectrodes.Size = New System.Drawing.Size(153, 68)
         Me.listElectrodes.TabIndex = 3
         '
         'labelElectrodes
         '
         Me.labelElectrodes.AutoSize = True
-        Me.labelElectrodes.Location = New System.Drawing.Point(526, 94)
+        Me.labelElectrodes.Location = New System.Drawing.Point(468, 75)
         Me.labelElectrodes.Name = "labelElectrodes"
-        Me.labelElectrodes.Size = New System.Drawing.Size(85, 20)
+        Me.labelElectrodes.Size = New System.Drawing.Size(75, 17)
         Me.labelElectrodes.TabIndex = 4
         Me.labelElectrodes.Text = "Electrodes"
         '
@@ -136,18 +139,21 @@ Partial Class frmMain
         Me.boxDefineSettings.Controls.Add(Me.labelSamplingRate)
         Me.boxDefineSettings.Controls.Add(Me.labelLatencyWindow)
         Me.boxDefineSettings.Controls.Add(Me.labelComponent)
-        Me.boxDefineSettings.Location = New System.Drawing.Point(20, 87)
+        Me.boxDefineSettings.Location = New System.Drawing.Point(18, 70)
+        Me.boxDefineSettings.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.boxDefineSettings.Name = "boxDefineSettings"
-        Me.boxDefineSettings.Size = New System.Drawing.Size(494, 188)
+        Me.boxDefineSettings.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.boxDefineSettings.Size = New System.Drawing.Size(439, 150)
         Me.boxDefineSettings.TabIndex = 6
         Me.boxDefineSettings.TabStop = False
         Me.boxDefineSettings.Text = "Define Settings:"
         '
         'textBaseline
         '
-        Me.textBaseline.Location = New System.Drawing.Point(336, 99)
+        Me.textBaseline.Location = New System.Drawing.Point(299, 79)
+        Me.textBaseline.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textBaseline.Name = "textBaseline"
-        Me.textBaseline.Size = New System.Drawing.Size(133, 26)
+        Me.textBaseline.Size = New System.Drawing.Size(119, 22)
         Me.textBaseline.TabIndex = 9
         Me.textBaseline.Text = "200"
         Me.textBaseline.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -155,53 +161,57 @@ Partial Class frmMain
         'labelBaseline
         '
         Me.labelBaseline.AutoSize = True
-        Me.labelBaseline.Location = New System.Drawing.Point(82, 102)
+        Me.labelBaseline.Location = New System.Drawing.Point(73, 82)
         Me.labelBaseline.Name = "labelBaseline"
-        Me.labelBaseline.Size = New System.Drawing.Size(248, 20)
+        Me.labelBaseline.Size = New System.Drawing.Size(224, 17)
         Me.labelBaseline.TabIndex = 8
         Me.labelBaseline.Text = "Baseline duration in ms (0 if none)"
         '
         'labelTo
         '
         Me.labelTo.AutoSize = True
-        Me.labelTo.Location = New System.Drawing.Point(388, 137)
+        Me.labelTo.Location = New System.Drawing.Point(345, 110)
         Me.labelTo.Name = "labelTo"
-        Me.labelTo.Size = New System.Drawing.Size(23, 20)
+        Me.labelTo.Size = New System.Drawing.Size(20, 17)
         Me.labelTo.TabIndex = 7
         Me.labelTo.Text = "to"
         '
         'textLatencyUpper
         '
-        Me.textLatencyUpper.Location = New System.Drawing.Point(423, 134)
+        Me.textLatencyUpper.Location = New System.Drawing.Point(376, 107)
+        Me.textLatencyUpper.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textLatencyUpper.Name = "textLatencyUpper"
-        Me.textLatencyUpper.Size = New System.Drawing.Size(46, 26)
+        Me.textLatencyUpper.Size = New System.Drawing.Size(41, 22)
         Me.textLatencyUpper.TabIndex = 6
         Me.textLatencyUpper.Text = "200"
         Me.textLatencyUpper.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'textLatencyLower
         '
-        Me.textLatencyLower.Location = New System.Drawing.Point(336, 134)
+        Me.textLatencyLower.Location = New System.Drawing.Point(299, 107)
+        Me.textLatencyLower.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textLatencyLower.Name = "textLatencyLower"
-        Me.textLatencyLower.Size = New System.Drawing.Size(46, 26)
+        Me.textLatencyLower.Size = New System.Drawing.Size(41, 22)
         Me.textLatencyLower.TabIndex = 5
         Me.textLatencyLower.Text = "100"
         Me.textLatencyLower.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'textComponent
         '
-        Me.textComponent.Location = New System.Drawing.Point(336, 64)
+        Me.textComponent.Location = New System.Drawing.Point(299, 51)
+        Me.textComponent.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textComponent.Name = "textComponent"
-        Me.textComponent.Size = New System.Drawing.Size(133, 26)
+        Me.textComponent.Size = New System.Drawing.Size(119, 22)
         Me.textComponent.TabIndex = 4
         Me.textComponent.Text = "N1"
         Me.textComponent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'textSamplingRate
         '
-        Me.textSamplingRate.Location = New System.Drawing.Point(336, 28)
+        Me.textSamplingRate.Location = New System.Drawing.Point(299, 22)
+        Me.textSamplingRate.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textSamplingRate.Name = "textSamplingRate"
-        Me.textSamplingRate.Size = New System.Drawing.Size(133, 26)
+        Me.textSamplingRate.Size = New System.Drawing.Size(119, 22)
         Me.textSamplingRate.TabIndex = 3
         Me.textSamplingRate.Text = "256"
         Me.textSamplingRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -209,35 +219,36 @@ Partial Class frmMain
         'labelSamplingRate
         '
         Me.labelSamplingRate.AutoSize = True
-        Me.labelSamplingRate.Location = New System.Drawing.Point(176, 31)
+        Me.labelSamplingRate.Location = New System.Drawing.Point(156, 25)
         Me.labelSamplingRate.Name = "labelSamplingRate"
-        Me.labelSamplingRate.Size = New System.Drawing.Size(154, 20)
+        Me.labelSamplingRate.Size = New System.Drawing.Size(136, 17)
         Me.labelSamplingRate.TabIndex = 2
         Me.labelSamplingRate.Text = "Sampling Rate in Hz"
         '
         'labelLatencyWindow
         '
         Me.labelLatencyWindow.AutoSize = True
-        Me.labelLatencyWindow.Location = New System.Drawing.Point(15, 137)
+        Me.labelLatencyWindow.Location = New System.Drawing.Point(13, 110)
         Me.labelLatencyWindow.Name = "labelLatencyWindow"
-        Me.labelLatencyWindow.Size = New System.Drawing.Size(315, 20)
+        Me.labelLatencyWindow.Size = New System.Drawing.Size(284, 17)
         Me.labelLatencyWindow.TabIndex = 1
         Me.labelLatencyWindow.Text = "Latency Window in ms (e.g., 120 to 220 ms)"
         '
         'labelComponent
         '
         Me.labelComponent.AutoSize = True
-        Me.labelComponent.Location = New System.Drawing.Point(106, 64)
+        Me.labelComponent.Location = New System.Drawing.Point(94, 51)
         Me.labelComponent.Name = "labelComponent"
-        Me.labelComponent.Size = New System.Drawing.Size(224, 20)
+        Me.labelComponent.Size = New System.Drawing.Size(201, 17)
         Me.labelComponent.TabIndex = 0
         Me.labelComponent.Text = "Component Name (e.g., N170)"
         '
         'btnScorePeakSave
         '
-        Me.btnScorePeakSave.Location = New System.Drawing.Point(531, 353)
+        Me.btnScorePeakSave.Location = New System.Drawing.Point(472, 282)
+        Me.btnScorePeakSave.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnScorePeakSave.Name = "btnScorePeakSave"
-        Me.btnScorePeakSave.Size = New System.Drawing.Size(172, 71)
+        Me.btnScorePeakSave.Size = New System.Drawing.Size(153, 57)
         Me.btnScorePeakSave.TabIndex = 2
         Me.btnScorePeakSave.Text = "&Score Peaks and Save"
         Me.btnScorePeakSave.UseVisualStyleBackColor = True
@@ -257,18 +268,19 @@ Partial Class frmMain
         'labelEpochDuration
         '
         Me.labelEpochDuration.AutoSize = True
-        Me.labelEpochDuration.Location = New System.Drawing.Point(526, 282)
+        Me.labelEpochDuration.Location = New System.Drawing.Point(468, 226)
         Me.labelEpochDuration.Name = "labelEpochDuration"
-        Me.labelEpochDuration.Size = New System.Drawing.Size(156, 20)
+        Me.labelEpochDuration.Size = New System.Drawing.Size(140, 17)
         Me.labelEpochDuration.TabIndex = 7
         Me.labelEpochDuration.Text = "Epoch duration (ms):"
         '
         'textEpochDuration
         '
-        Me.textEpochDuration.Location = New System.Drawing.Point(531, 305)
+        Me.textEpochDuration.Location = New System.Drawing.Point(472, 244)
+        Me.textEpochDuration.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textEpochDuration.Name = "textEpochDuration"
         Me.textEpochDuration.ReadOnly = True
-        Me.textEpochDuration.Size = New System.Drawing.Size(172, 26)
+        Me.textEpochDuration.Size = New System.Drawing.Size(153, 22)
         Me.textEpochDuration.TabIndex = 8
         Me.textEpochDuration.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -281,18 +293,21 @@ Partial Class frmMain
         Me.boxDefineMeasures.Controls.Add(Me.checkMeanAmp)
         Me.boxDefineMeasures.Controls.Add(Me.checkMaxAmp)
         Me.boxDefineMeasures.Controls.Add(Me.checkMinAmp)
-        Me.boxDefineMeasures.Location = New System.Drawing.Point(20, 285)
+        Me.boxDefineMeasures.Location = New System.Drawing.Point(18, 228)
+        Me.boxDefineMeasures.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.boxDefineMeasures.Name = "boxDefineMeasures"
-        Me.boxDefineMeasures.Size = New System.Drawing.Size(494, 145)
+        Me.boxDefineMeasures.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.boxDefineMeasures.Size = New System.Drawing.Size(439, 116)
         Me.boxDefineMeasures.TabIndex = 9
         Me.boxDefineMeasures.TabStop = False
         Me.boxDefineMeasures.Text = "Define Peak Measures:"
         '
         'textMeanLat
         '
-        Me.textMeanLat.Location = New System.Drawing.Point(262, 97)
+        Me.textMeanLat.Location = New System.Drawing.Point(233, 78)
+        Me.textMeanLat.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textMeanLat.Name = "textMeanLat"
-        Me.textMeanLat.Size = New System.Drawing.Size(46, 26)
+        Me.textMeanLat.Size = New System.Drawing.Size(41, 22)
         Me.textMeanLat.TabIndex = 6
         Me.textMeanLat.Text = "50"
         Me.textMeanLat.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -302,10 +317,11 @@ Partial Class frmMain
         Me.checkMeanLat.AutoSize = True
         Me.checkMeanLat.Checked = True
         Me.checkMeanLat.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.checkMeanLat.Location = New System.Drawing.Point(316, 99)
+        Me.checkMeanLat.Location = New System.Drawing.Point(281, 79)
+        Me.checkMeanLat.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.checkMeanLat.Name = "checkMeanLat"
         Me.checkMeanLat.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.checkMeanLat.Size = New System.Drawing.Size(147, 24)
+        Me.checkMeanLat.Size = New System.Drawing.Size(130, 21)
         Me.checkMeanLat.TabIndex = 5
         Me.checkMeanLat.Text = "Area Latency %"
         Me.checkMeanLat.UseVisualStyleBackColor = True
@@ -315,10 +331,11 @@ Partial Class frmMain
         Me.checkMaxLat.AutoSize = True
         Me.checkMaxLat.Checked = True
         Me.checkMaxLat.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.checkMaxLat.Location = New System.Drawing.Point(290, 65)
+        Me.checkMaxLat.Location = New System.Drawing.Point(258, 52)
+        Me.checkMaxLat.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.checkMaxLat.Name = "checkMaxLat"
         Me.checkMaxLat.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.checkMaxLat.Size = New System.Drawing.Size(168, 24)
+        Me.checkMaxLat.Size = New System.Drawing.Size(149, 21)
         Me.checkMaxLat.TabIndex = 4
         Me.checkMaxLat.Text = "Max. Peak Latency"
         Me.checkMaxLat.UseVisualStyleBackColor = True
@@ -328,10 +345,11 @@ Partial Class frmMain
         Me.checkMinLat.AutoSize = True
         Me.checkMinLat.Checked = True
         Me.checkMinLat.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.checkMinLat.Location = New System.Drawing.Point(294, 33)
+        Me.checkMinLat.Location = New System.Drawing.Point(261, 26)
+        Me.checkMinLat.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.checkMinLat.Name = "checkMinLat"
         Me.checkMinLat.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.checkMinLat.Size = New System.Drawing.Size(164, 24)
+        Me.checkMinLat.Size = New System.Drawing.Size(146, 21)
         Me.checkMinLat.TabIndex = 3
         Me.checkMinLat.Text = "Min. Peak Latency"
         Me.checkMinLat.UseVisualStyleBackColor = True
@@ -341,10 +359,11 @@ Partial Class frmMain
         Me.checkMeanAmp.AutoSize = True
         Me.checkMeanAmp.Checked = True
         Me.checkMeanAmp.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.checkMeanAmp.Location = New System.Drawing.Point(66, 99)
+        Me.checkMeanAmp.Location = New System.Drawing.Point(59, 79)
+        Me.checkMeanAmp.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.checkMeanAmp.Name = "checkMeanAmp"
         Me.checkMeanAmp.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.checkMeanAmp.Size = New System.Drawing.Size(150, 24)
+        Me.checkMeanAmp.Size = New System.Drawing.Size(131, 21)
         Me.checkMeanAmp.TabIndex = 2
         Me.checkMeanAmp.Text = "Mean Amplitude"
         Me.checkMeanAmp.UseVisualStyleBackColor = True
@@ -354,10 +373,11 @@ Partial Class frmMain
         Me.checkMaxAmp.AutoSize = True
         Me.checkMaxAmp.Checked = True
         Me.checkMaxAmp.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.checkMaxAmp.Location = New System.Drawing.Point(30, 65)
+        Me.checkMaxAmp.Location = New System.Drawing.Point(27, 52)
+        Me.checkMaxAmp.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.checkMaxAmp.Name = "checkMaxAmp"
         Me.checkMaxAmp.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.checkMaxAmp.Size = New System.Drawing.Size(183, 24)
+        Me.checkMaxAmp.Size = New System.Drawing.Size(161, 21)
         Me.checkMaxAmp.TabIndex = 1
         Me.checkMaxAmp.Text = "Max. Peak Amplitude"
         Me.checkMaxAmp.UseVisualStyleBackColor = True
@@ -367,10 +387,11 @@ Partial Class frmMain
         Me.checkMinAmp.AutoSize = True
         Me.checkMinAmp.Checked = True
         Me.checkMinAmp.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.checkMinAmp.Location = New System.Drawing.Point(34, 33)
+        Me.checkMinAmp.Location = New System.Drawing.Point(30, 26)
+        Me.checkMinAmp.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.checkMinAmp.Name = "checkMinAmp"
         Me.checkMinAmp.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.checkMinAmp.Size = New System.Drawing.Size(179, 24)
+        Me.checkMinAmp.Size = New System.Drawing.Size(158, 21)
         Me.checkMinAmp.TabIndex = 0
         Me.checkMinAmp.Text = "Min. Peak Amplitude"
         Me.checkMinAmp.UseVisualStyleBackColor = True
@@ -383,19 +404,20 @@ Partial Class frmMain
         '
         'textTimepoints
         '
-        Me.textTimepoints.Location = New System.Drawing.Point(531, 239)
+        Me.textTimepoints.Location = New System.Drawing.Point(472, 191)
+        Me.textTimepoints.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textTimepoints.Name = "textTimepoints"
         Me.textTimepoints.ReadOnly = True
-        Me.textTimepoints.Size = New System.Drawing.Size(172, 26)
+        Me.textTimepoints.Size = New System.Drawing.Size(153, 22)
         Me.textTimepoints.TabIndex = 11
         Me.textTimepoints.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'labelTimepoints
         '
         Me.labelTimepoints.AutoSize = True
-        Me.labelTimepoints.Location = New System.Drawing.Point(526, 216)
+        Me.labelTimepoints.Location = New System.Drawing.Point(468, 173)
         Me.labelTimepoints.Name = "labelTimepoints"
-        Me.labelTimepoints.Size = New System.Drawing.Size(168, 20)
+        Me.labelTimepoints.Size = New System.Drawing.Size(150, 17)
         Me.labelTimepoints.TabIndex = 10
         Me.labelTimepoints.Text = "Number of time points:"
         '
@@ -405,7 +427,7 @@ Partial Class frmMain
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape2})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(716, 550)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(636, 440)
         Me.ShapeContainer1.TabIndex = 13
         Me.ShapeContainer1.TabStop = False
         '
@@ -425,10 +447,10 @@ Partial Class frmMain
         Me.labelEMail.BackColor = System.Drawing.Color.White
         Me.labelEMail.ForeColor = System.Drawing.Color.Transparent
         Me.labelEMail.LinkColor = System.Drawing.Color.DimGray
-        Me.labelEMail.Location = New System.Drawing.Point(549, 514)
+        Me.labelEMail.Location = New System.Drawing.Point(488, 411)
         Me.labelEMail.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labelEMail.Name = "labelEMail"
-        Me.labelEMail.Size = New System.Drawing.Size(154, 20)
+        Me.labelEMail.Size = New System.Drawing.Size(136, 17)
         Me.labelEMail.TabIndex = 18
         Me.labelEMail.TabStop = True
         Me.labelEMail.Text = "frsantos@fpce.up.pt"
@@ -438,21 +460,22 @@ Partial Class frmMain
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(657, 462)
+        Me.Label1.Location = New System.Drawing.Point(584, 370)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(45, 20)
+        Me.Label1.Size = New System.Drawing.Size(40, 17)
         Me.Label1.TabIndex = 17
-        Me.Label1.Text = "2013"
+        Me.Label1.Text = "2018"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'picLabNPF
         '
         Me.picLabNPF.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picLabNPF.Image = CType(resources.GetObject("picLabNPF.Image"), System.Drawing.Image)
-        Me.picLabNPF.Location = New System.Drawing.Point(16, 460)
+        Me.picLabNPF.Location = New System.Drawing.Point(14, 368)
+        Me.picLabNPF.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.picLabNPF.Name = "picLabNPF"
-        Me.picLabNPF.Size = New System.Drawing.Size(326, 80)
+        Me.picLabNPF.Size = New System.Drawing.Size(290, 64)
         Me.picLabNPF.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picLabNPF.TabIndex = 16
         Me.picLabNPF.TabStop = False
@@ -461,20 +484,22 @@ Partial Class frmMain
         '
         Me.labelFFS.AutoSize = True
         Me.labelFFS.BackColor = System.Drawing.Color.White
-        Me.labelFFS.Location = New System.Drawing.Point(516, 488)
+        Me.labelFFS.Location = New System.Drawing.Point(459, 390)
         Me.labelFFS.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labelFFS.Name = "labelFFS"
-        Me.labelFFS.Size = New System.Drawing.Size(193, 20)
+        Me.labelFFS.Size = New System.Drawing.Size(172, 17)
         Me.labelFFS.TabIndex = 19
         Me.labelFFS.Text = "Fernando Ferreira-Santos"
         Me.labelFFS.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'MenuStrip
         '
+        Me.MenuStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuFile, Me.menuHelp})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(716, 33)
+        Me.MenuStrip.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
+        Me.MenuStrip.Size = New System.Drawing.Size(636, 28)
         Me.MenuStrip.TabIndex = 22
         Me.MenuStrip.Text = "MenuStrip1"
         '
@@ -482,31 +507,31 @@ Partial Class frmMain
         '
         Me.menuFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuFileOpen, Me.ToolStripSeparator1, Me.menuFileExit})
         Me.menuFile.Name = "menuFile"
-        Me.menuFile.Size = New System.Drawing.Size(50, 29)
+        Me.menuFile.Size = New System.Drawing.Size(44, 24)
         Me.menuFile.Text = "&File"
         '
         'menuFileOpen
         '
         Me.menuFileOpen.Name = "menuFileOpen"
-        Me.menuFileOpen.Size = New System.Drawing.Size(373, 30)
+        Me.menuFileOpen.Size = New System.Drawing.Size(328, 26)
         Me.menuFileOpen.Text = "&Open ERP File (EEGLAB ASCII export)"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(370, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(325, 6)
         '
         'menuFileExit
         '
         Me.menuFileExit.Name = "menuFileExit"
-        Me.menuFileExit.Size = New System.Drawing.Size(373, 30)
+        Me.menuFileExit.Size = New System.Drawing.Size(328, 26)
         Me.menuFileExit.Text = "E&xit"
         '
         'menuHelp
         '
         Me.menuHelp.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuHelpTooltips, Me.menuHelpDocumentation, Me.menuHelpLicense, Me.ToolStripSeparator2, Me.menuHelpInstructions, Me.menuHelpCitation, Me.ToolStripMenuItem1, Me.menuHelpUpdates})
         Me.menuHelp.Name = "menuHelp"
-        Me.menuHelp.Size = New System.Drawing.Size(61, 29)
+        Me.menuHelp.Size = New System.Drawing.Size(53, 24)
         Me.menuHelp.Text = "&Help"
         '
         'menuHelpTooltips
@@ -515,64 +540,65 @@ Partial Class frmMain
         Me.menuHelpTooltips.CheckOnClick = True
         Me.menuHelpTooltips.CheckState = System.Windows.Forms.CheckState.Checked
         Me.menuHelpTooltips.Name = "menuHelpTooltips"
-        Me.menuHelpTooltips.Size = New System.Drawing.Size(347, 30)
+        Me.menuHelpTooltips.Size = New System.Drawing.Size(305, 26)
         Me.menuHelpTooltips.Text = "Help &tooltips"
         '
         'menuHelpDocumentation
         '
         Me.menuHelpDocumentation.Name = "menuHelpDocumentation"
-        Me.menuHelpDocumentation.Size = New System.Drawing.Size(347, 30)
+        Me.menuHelpDocumentation.Size = New System.Drawing.Size(305, 26)
         Me.menuHelpDocumentation.Text = "&Documentation"
         '
         'menuHelpLicense
         '
         Me.menuHelpLicense.Name = "menuHelpLicense"
-        Me.menuHelpLicense.Size = New System.Drawing.Size(347, 30)
+        Me.menuHelpLicense.Size = New System.Drawing.Size(305, 26)
         Me.menuHelpLicense.Text = "&License (CC-BY-3.0)"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(344, 6)
-        '
-        'menuHelpInstructions
-        '
-        Me.menuHelpInstructions.Name = "menuHelpInstructions"
-        Me.menuHelpInstructions.Size = New System.Drawing.Size(347, 30)
-        Me.menuHelpInstructions.Text = "How to use (&instructions)"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(302, 6)
         '
         'menuHelpCitation
         '
         Me.menuHelpCitation.Name = "menuHelpCitation"
-        Me.menuHelpCitation.Size = New System.Drawing.Size(347, 30)
+        Me.menuHelpCitation.Size = New System.Drawing.Size(305, 26)
         Me.menuHelpCitation.Text = "How to cite (&citation)"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(344, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(302, 6)
         '
         'menuHelpUpdates
         '
         Me.menuHelpUpdates.Name = "menuHelpUpdates"
-        Me.menuHelpUpdates.Size = New System.Drawing.Size(347, 30)
-        Me.menuHelpUpdates.Text = "&Updates? (go to LabNPF website)"
+        Me.menuHelpUpdates.Size = New System.Drawing.Size(273, 26)
+        Me.menuHelpUpdates.Text = "&Updates? (see latest release)"
         '
         'picLicense
         '
         Me.picLicense.Cursor = System.Windows.Forms.Cursors.Hand
         Me.picLicense.Image = CType(resources.GetObject("picLicense.Image"), System.Drawing.Image)
-        Me.picLicense.Location = New System.Drawing.Point(365, 486)
+        Me.picLicense.Location = New System.Drawing.Point(324, 389)
+        Me.picLicense.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.picLicense.Name = "picLicense"
-        Me.picLicense.Size = New System.Drawing.Size(133, 50)
+        Me.picLicense.Size = New System.Drawing.Size(118, 40)
         Me.picLicense.TabIndex = 23
         Me.picLicense.TabStop = False
         '
+        'menuHelpInstructions
+        '
+        Me.menuHelpInstructions.Name = "menuHelpInstructions"
+        Me.menuHelpInstructions.Size = New System.Drawing.Size(305, 26)
+        Me.menuHelpInstructions.Text = "How to use (&instructions)"
+        '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(716, 550)
+        Me.ClientSize = New System.Drawing.Size(636, 440)
         Me.Controls.Add(Me.picLicense)
         Me.Controls.Add(Me.labelFFS)
         Me.Controls.Add(Me.labelEMail)
@@ -594,6 +620,7 @@ Partial Class frmMain
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.MaximizeBox = False
         Me.Name = "frmMain"
         Me.Text = "ERP PeakScore"
@@ -640,11 +667,9 @@ Partial Class frmMain
     Friend WithEvents dialogSave As System.Windows.Forms.SaveFileDialog
     Friend WithEvents textTimepoints As System.Windows.Forms.TextBox
     Friend WithEvents labelTimepoints As System.Windows.Forms.Label
-    Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents labelEMail As System.Windows.Forms.LinkLabel
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents picLabNPF As System.Windows.Forms.PictureBox
-    Friend WithEvents RectangleShape2 As Microsoft.VisualBasic.PowerPacks.RectangleShape
     Friend WithEvents labelFFS As System.Windows.Forms.Label
     Friend WithEvents MenuStrip As System.Windows.Forms.MenuStrip
     Friend WithEvents menuFile As System.Windows.Forms.ToolStripMenuItem
@@ -655,11 +680,12 @@ Partial Class frmMain
     Friend WithEvents menuHelpTooltips As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents menuHelpDocumentation As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents menuHelpInstructions As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents menuHelpCitation As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents menuHelpUpdates As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents menuHelpLicense As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents picLicense As System.Windows.Forms.PictureBox
-
+    Private WithEvents ShapeContainer1 As PowerPacks.ShapeContainer
+    Private WithEvents RectangleShape2 As PowerPacks.RectangleShape
+    Friend WithEvents menuHelpInstructions As ToolStripMenuItem
 End Class

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="ERP PeakScore.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="ERP PeakScore.exe" version="1.1.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="ERP_PeakScore_icon_transp.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ERP PeakScore.exe" size="407048">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ERP PeakScore.exe" size="408072">
       <assemblyIdentity name="ERP PeakScore" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iKA/yowCbYwZQY9SAHy+LSbV7rWGtJSjby9+Z0I6j60=</dsig:DigestValue>
+        <dsig:DigestValue>tz4V/zNRb97BFffE2vhnikguPQyfkPWElNQYCaTMcKg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -66,15 +66,6 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Citation.txt" size="960">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>8C7sdmy6suqwWcxh05sMtYW09oWEqH/PD/S5SC17UGE=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="ERP PeakScore.exe.config" size="186">
     <hash>
       <dsig:Transforms>
@@ -102,22 +93,13 @@
       <dsig:DigestValue>k33DUS7l4GlEPWF+rLTBR2/ZHKQJgL4xeK1jDRArxMM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Instructions.txt" size="2101">
+  <file name="Readme.txt" size="3205">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>bp/A2Q7yoqVmFGMUJHRCAW8vG2MzZdbjuwVoQLCdxyk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Readme.txt" size="2627">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>uZRqtx6gMF5oZ+ZZ/yP3wrx8ZLNVMi07J52S2iLxCL4=</dsig:DigestValue>
+      <dsig:DigestValue>8itqb38iBybjhWhKx+HnJoSrnpn2ZAq/i6ttbfgAIuE=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

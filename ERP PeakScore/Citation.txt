@@ -25,5 +25,4 @@ APA style 6th edition citation:
 Ferreira-Santos, F. (2013). ERP PeakScore (Version 1.0) 
 [Computer software]. Porto: Laboratory of 
 Neuropsychophysiology (University of Porto). 
-Retrieved from 
-http://www.fpce.up.pt/labpsi/index.php?page=13&level=2&lang=en
+Retrieved from https://github.com/ferreira-santos/ERP_PeakScore
