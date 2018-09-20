@@ -4,7 +4,7 @@
   <description asmv2:iconFile="ERP_PeakScore_icon_transp.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="ERP PeakScore" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="ERP PeakScore" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="ERP PeakScore.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -44,13 +44,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ERP PeakScore.exe" size="408072">
-      <assemblyIdentity name="ERP PeakScore" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="ERP PeakScore" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tz4V/zNRb97BFffE2vhnikguPQyfkPWElNQYCaTMcKg=</dsig:DigestValue>
+        <dsig:DigestValue>eMO61do7kDw9Zhp+xYR0h+wlxe+tcPscDbsa5N++Z3Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

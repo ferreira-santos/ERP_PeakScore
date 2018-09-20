@@ -1,0 +1,77 @@
+﻿****************************************************
+
+ERP PeakScore version 1.1 (2018)
+https://github.com/ferreira-santos/ERP_PeakScore
+
+Fernando Ferreira-Santos (frsantos@fpce.up.pt)
+
+Laboratory of Neuropsychophysiology
+http://www.fpce.up.pt/labpsi
+
+****************************************************
+
+README
+
+ERP PeakScore 1.1 is a small program designed to extract
+amplitude and latency measures from event-related potential data
+exported from EEGLAB in ASCII format.
+
+Documentation and instructions for the program can be found at 
+the ERP PeakScore Github repository: 
+https://github.com/ferreira-santos/ERP_PeakScore#-erp-peakscore
+
+For updates, please check the releases section of the GitHub 
+repository (updates may also be announced in the software section
+of the website of the Laboratory of Neuropsychophysiology: 
+http://www.fpce.up.pt/labpsi/).
+
+Report issues or bugs here:
+https://github.com/ferreira-santos/ERP_PeakScore/issues
+
+
+****************************************************
+
+HOW TO CITE ERP PeakScore?
+
+This work is licensed under the Creative Commons 
+Attribution 3.0 Unported License. To view a copy of 
+this license, visit https://creativecommons.org/licenses/by/3.0/ 
+or send a letter to Creative Commons, 171 Second Street, 
+Suite 300, San Francisco, California 94105, USA.
+
+You may use, distribute, and modify this software freely, 
+but are required to credit the original author. 
+
+APA style 6th edition citation:
+
+Ferreira-Santos, F. (2018). ERP PeakScore (Version 1.1) 
+[Computer software]. Porto: Laboratory of 
+Neuropsychophysiology (University of Porto). 
+Retrieved from https://github.com/ferreira-santos/ERP_PeakScore
+
+
+****************************************************
+
+DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+
+The software is supplied “as is” and all use is at your own risk. 
+The author (Fernando Ferreira-Santos) and the Laboratory of 
+Neuropsychophysiology of the University of Porto, disclaim all 
+warranties of any kind, either express or implied, as to the software, 
+including, but not limited to, implied warranties of fitness for a
+particular purpose, merchantability or non‐infringement of proprietary 
+rights. Neither this agreement nor any documentation furnished under it 
+is intended to express or imply any warranty that the operation of the 
+software will be uninterrupted, timely, or error‐free.
+
+Under no circumstances shall the author (Fernando Ferreira-Santos) or 
+the Laboratory of Neuropsychophysiology of the University of Porto be 
+liable to any user for direct, indirect, incidental, consequential, 
+special, or exemplary damages, arising from or relating to this 
+agreement, the software, or userʹs use or misuse of the software or 
+any other services provided by the author (Fernando Ferreira-Santos) or
+the the Laboratory of Neuropsychophysiology of the University of Porto. 
+Such limitation of liability shall apply whether the damages arise 
+from the use or misuse of the software or any other services supplied by
+the author (Fernando Ferreira-Santos) or the the Laboratory of 
+Neuropsychophysiology of the University of Porto.
