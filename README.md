@@ -48,4 +48,4 @@ The `ERP PeakScore` program was developed by [Fernando Ferreira-Santos](http://f
 
 APA style 6th edition citation:
 
-Ferreira-Santos, F. (2013). ERP PeakScore (Version 1.0) [Computer software]. Porto: Laboratory of Neuropsychophysiology (University of Porto). Retrieved from https://github.com/ferreira-santos/ERP_PeakScore
+Ferreira-Santos, F. (2018). ERP PeakScore (Version 1.1) [Computer software]. Porto: Laboratory of Neuropsychophysiology (University of Porto). Retrieved from https://github.com/ferreira-santos/ERP_PeakScore
