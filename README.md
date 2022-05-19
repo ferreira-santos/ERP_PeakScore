@@ -29,7 +29,7 @@ For updates, please check the [releases section](https://github.com/ferreira-san
   - If there is any space or tabulation in the first row after the last electrode name, delete this space/tab and save the file.
 
 ### 2. Using ERP PeakScore
-- Open the ASCII file exported from EEGLAB by pressing the "Open ERP file" button
+- Open the ASCII file exported from EEGLAB by pressing the "Open ERP File" button
   - After opening the file you should see the file path, electrodes, and time points.
 - Define the settings and measures for the peak scoring
   - For information on each of the settings and measures, see the help tooltips by mousing over them in the program window (note: make sure "Help tooltips" is enabled the "Help" menu).
